@@ -1,6 +1,13 @@
 .App {
   text-align: center;
 }
+body, html {
+  min-height: 100%
+}
+
+body{
+  background: grey;
+}
 
 .App-logo {
   height: 40vmin;
@@ -10,12 +17,13 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    height: 150px;
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34; */
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +43,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-text{
+  background: white;
+  color: black;
+  text-align: initial;
+  /* padding-left: 20px; */
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: sans-serif;
+
+  
+}
+
+
+#date{
+  display: inline;
+}
+
+#indefinite-article{
+  display: inline;
+}
+
+.inputs > div > input{
+  width: 300px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+.inputs > div {
+  text-align: initial;
+  display: flex;
+  justify-content: space-between;
+}
+
+#copied{
+  color: chartreuse;
+  font-size: 20px;
+  padding: 15px 10px 10px 45px;
 }

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/clearbitEmails/static/css/main.d9eb0899.chunk.css",
-    "main.js": "/clearbitEmails/static/js/main.6b5d1ec4.chunk.js",
-    "main.js.map": "/clearbitEmails/static/js/main.6b5d1ec4.chunk.js.map",
+    "main.js": "/clearbitEmails/static/js/main.a1346e0b.chunk.js",
+    "main.js.map": "/clearbitEmails/static/js/main.a1346e0b.chunk.js.map",
     "runtime-main.js": "/clearbitEmails/static/js/runtime-main.2e8649d3.js",
     "runtime-main.js.map": "/clearbitEmails/static/js/runtime-main.2e8649d3.js.map",
     "static/js/2.31559029.chunk.js": "/clearbitEmails/static/js/2.31559029.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.2e8649d3.js",
     "static/js/2.31559029.chunk.js",
     "static/css/main.d9eb0899.chunk.css",
-    "static/js/main.6b5d1ec4.chunk.js"
+    "static/js/main.a1346e0b.chunk.js"
   ]
 }

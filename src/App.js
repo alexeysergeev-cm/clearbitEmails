@@ -94,14 +94,19 @@ function App() {
             Hi {nameInput.name},
             <br />
             <br />
-            I saw your company is hiring a <a href={linkInput.link}>Software Developer</a> and noticed you are <p id='indefinite-article'></p> {positionInput.position}
-            &nbsp;at {companyInput.company}. I decided to personally reach out to see if you are the right person to talk
-            about the role and company. I have the {exp.e} experience that your team is seeking
-            (check out my <a href="https://ondesk.herokuapp.com/#/">Full Stack Project</a>).
+            I noticed you are <p id='indefinite-article'></p> {positionInput.position}
+            &nbsp;at {companyInput.company} and decided to personally reach out to see if you are the right person to talk
+            about the role and company. 
+            <br />
+            <br />
+            
+            I applied for a <a href={linkInput.link} target='none'>Software Developer</a> position and believe I would be a good fit since 
+            I have the {exp.e} experience that your team is seeking 
+            (check out my <a href="https://ondesk.herokuapp.com/#/" target='none'>Full Stack Project</a> and&nbsp; 
+            <a href="https://alexeysergeev-cm.github.io/images/Resume%20-%20Alexey%20Sergeev.pdf" target='none'>Resume</a>).
+            <br />
+            <br />
             Would you be free <p id='date'></p> week for a quick zoom chat or phone call?<br />
-            <br />
-            I have attached my resume and would be happy to hear back if there is interest.
-            <br />
             I appreciate your time.<br />
             <br />
             Best Regards,<br />

@@ -94,27 +94,30 @@ function App() {
             Hi {nameInput.name},
             <br />
             <br />
+
+            I saw {companyInput.company} is hiring a <a href={linkInput.link} target='none'>Software Developer</a> and I believe I am a good fit since 
+            I have the {exp.e} experience that your team is seeking.
+            (Check out my <a href="https://ondesk.herokuapp.com/#/" target='none'>Full Stack Project</a> and&nbsp; 
+            <a href="https://alexeysergeev-cm.github.io/images/Resume%20-%20Alexey%20Sergeev.pdf" target='none'>Resume</a>)
+        
+            <br />
+            <br />
+
             I noticed you are <p id='indefinite-article'></p> {positionInput.position}
-            &nbsp;at {companyInput.company} and decided to personally reach out to see if you are the right person to talk
-            about the role and company. 
+            &nbsp;at {companyInput.company} and you might not be the person to talk about the role, but 
+            I would appreciate it if you can pass on my information to the recruitment team.
+
             <br />
             <br />
+
+            If you are the right person, would you be free <p id='date'></p> week for a quick Zoom chat?
             
-            I applied for a <a href={linkInput.link} target='none'>Software Developer</a> position and believe I would be a good fit since 
-            I have the {exp.e} experience that your team is seeking 
-            (check out my <a href="https://ondesk.herokuapp.com/#/" target='none'>Full Stack Project</a> and&nbsp; 
-            <a href="https://alexeysergeev-cm.github.io/images/Resume%20-%20Alexey%20Sergeev.pdf" target='none'>Resume</a>).
             <br />
             <br />
-            Would you be free <p id='date'></p> week for a quick zoom chat or phone call?<br />
-            I appreciate your time.<br />
-            <br />
+
             Best Regards,<br />
             Alexey Sergeev<br />
-            <br />
-            <a href="https://alexeysergeev-cm.github.io">Portfolio</a><br />
-            <a href="https://github.com/alexeysergeev-cm">Github</a><br />
-            <a href="https://www.linkedin.com/in/alexey-sergeev-cm/">LinkedIn</a><br />
+            <a href="https://alexeysergeev-cm.github.io">Portfolio</a> <a href="https://github.com/alexeysergeev-cm">Github</a> <a href="https://www.linkedin.com/in/alexey-sergeev-cm/">LinkedIn</a>
           </text>
         </div>
       </header>
